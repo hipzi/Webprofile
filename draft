@@ -1,0 +1,6 @@
+<td>
+                            <a class="UD" href="update.php?id=<?php echo $row['id']; ?>">Update</a>
+                                |
+                            <a class="UD" onclick="return confirm('Yakin ?')"
+                                href="delete.php?id=<?php echo $row['id']; ?>">Delete</a> 
+                        </td>
